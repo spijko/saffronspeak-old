@@ -131,6 +131,7 @@
 
 .mothers-day .panel .readMore > a {
     /*color: #000;*/
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    font-style: italic;
     text-decoration: none;
 }
