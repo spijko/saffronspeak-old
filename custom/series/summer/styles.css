@@ -1,41 +1,18 @@
 @import url('http://fonts.googleapis.com/css?family=Clicker+Script');
 
 .panel.panel-summer {
-       background: url("featured_summer_background.jpg") no-repeat scroll 0 0 / 100% auto #edccb6;
-    border-color: #2299ff;
-    padding: 1.7em 2em;
+       background: url("../../images/summer.jpg") no-repeat scroll 0 0 / 100% auto #edccb6;
+    border-color: #f28024;
+    padding: 1.7em 2em 0.2em;
     position: relative;
-	
 }
 .panel.panel-summer p { 
-       color: #566e88;
+       color: #8f7154;
+    line-height: 1;
     margin-bottom: 0px;
     margin-top: 24px;
     padding: 0 25px;
-	font-size: 18px;
 }
-
-.panel.panel-summer p span {
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 24px;
-	color: #1b86d6;
-}
-
-.panel.panel-summer p a {
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 24px;
-	color: #1b86d6;
-	text-decoration:none;	
-}
-
-.panel.panel-summer p a:hover {
-	color: #566e88;	
-}
-
-.panel.panel-summer .arrow {
-    margin-top: 11px;
-}
-
 .panel.panel-summer p.inner {
        margin-top: 0;
        margin-bottom:10px;
