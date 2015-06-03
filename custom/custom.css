@@ -1162,9 +1162,15 @@ section.expander { display: none; }
 .sharedaddy {
 	border-top: 1px solid #7D7556;
 	border-bottom: 2px solid #7D7556;
-	overflow: auto;
+	/*overflow: auto;*/
 	padding: 5px 0;
+	margin-bottom: 7px;	
 }
+
+div.sharedaddy h3.sd-title:before {
+	border-top:none !important;	
+}
+
 .sharedaddy::after {
 	clear: both;
 	content: '';
@@ -1186,6 +1192,7 @@ section.expander { display: none; }
 	float: left;
 	width: 65%;
 	margin-left: 5%;
+	margin-top: 1%;	
 }
 .sd-content ul {margin: 0;}
 .sd-content li {
@@ -1753,5 +1760,3 @@ th, td {
 	border-color: #fff;
 	color: #fff;
 }
-
-
